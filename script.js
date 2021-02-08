@@ -26,10 +26,10 @@ function jump() {
           clearInterval(downInterval);
           isJumping = false;
         } else {
-          position -= 20;
+          position -= 10;
           dino.style.bottom = position + 'px';
         }
-      }, 20);
+      }, 10);
     } else {
       // Movimento de subir
       position += 20;
